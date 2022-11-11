@@ -1,0 +1,295 @@
+:root {
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+*, *:before, *:after {
+    box-sizing: inherit; }
+
+html {
+    font-family: 'DM Sans', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    height: 32px;
+    font-size: 24px;
+    line-height: 31px;
+}
+
+
+
+
+.header{
+display: flex; 
+align-items: center;
+justify-content: space-between;
+color: #1E0E62;
+background-color: #FFFFFF;
+}
+.navbutton a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 10px;
+    text-decoration: none;
+    border: 2px solid #EBEAED;
+    border-radius: 100px;
+    color: #1E0E62;
+}
+
+.contenedor_titulo {
+    background: #F1F1F1;
+    display: flex;
+    justify-content: center;
+
+  
+}
+.contenedor_titulo img {
+    height: 450px;
+    width: 550px;
+    border-radius: 10px;
+    margin: 60px;    
+
+}
+
+@media (max-width: 768px ) {
+    .contenedor_titulo {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+}
+ 
+.textoPresentacion h2{
+    font-size: 43px;
+    line-height: 60px;
+    font-weight: 700;
+    color:#1E0E62;
+}
+
+.textoPresentacion p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: rgba(21, 20, 57, 0.4);
+
+}
+
+.texto1 h2{
+    display: block;
+    font-weight: 700;
+        font-size: 43px;
+        line-height: 60px;
+        color:#1E0E62;
+}
+
+.texto1 p {
+    display: block;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: rgba(21, 20, 57, 0.4);
+
+
+}
+
+.skills {
+    background-color: #F1F1F1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.skills__texto h2 {
+    font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 52px;
+text-align: center;
+color: #1E0E62;
+}
+
+.skills__texto p {
+    
+
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 32px;
+text-align: center;
+color: rgba(21, 20, 57, 0.4);
+
+}
+
+.servicios {
+    background-color: #F1F1F1;
+}
+
+.servicios h3 {
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+text-align: center;
+color: #1E0E62;
+
+}
+
+.servicios p {
+
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+color: rgba(21, 20, 57, 0.4);
+
+}
+
+
+@media (min-width:768px) {
+    .servicios {
+        display: flex;
+        
+    }
+}
+.servicio {
+    text-align:center;
+}
+.servicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botonContacto {
+    display: flex;
+    justify-content: center;
+    
+}
+.botonContacto_estilo {
+background: #25DAC5;
+width: 200px;
+border-radius: 100px;
+border: none;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 26px;
+display: flex;
+justify-content: center;
+
+}
+
+.botonContacto a {
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+  
+}
+
+.gridExp {
+  
+  background-color: #fff;
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ justify-content: center;
+  
+  
+}
+
+.gridExp h5 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    color: #1E0E62; 
+}
+
+.gridExp p {
+
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: rgba(21, 20, 57, 0.4);
+
+}
+
+.gridExp img {
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.gridExp .gridExp_info {
+    padding: 10px;
+    }
+
+@media (max-width: 768px ) {
+    .gridExp {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.gridExp img {
+    width: 509px;
+    height: 254px;
+}
+}
+
+.footer .footer__info {
+width: 100%;
+height: 715px;
+left: -9px;
+top: 0px;
+background: #F1F1F1;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+
+.footer h2 {
+    font-style: normal;
+font-weight: 700;
+font-size: 58px;
+line-height: 70px;
+text-align: center;
+letter-spacing: -1px;
+color: #1E0E62;
+}
+
+.footer a {
+font-style: normal;
+font-weight: 700;
+font-size: 58px;
+line-height: 70px;
+/* or 121% */
+
+text-align: center;
+letter-spacing: -1px;
+
+/* Action / Secondary */
+
+color: #482BE7;
+}
+
+.redes {
+    background-color: #F1F1F1;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.redes a {
+    margin: 50px;
+}
+
+
